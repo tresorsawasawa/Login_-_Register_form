@@ -54,6 +54,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 40px 0;
 }
 .login-page .box .left h3,
 .login-page .box .right h3{
@@ -171,5 +172,14 @@ body{
     .login-page{
         flex: 0 0 100%;
         max-width: 100%;
+    }
+}
+@media(max-width: 575px){
+    .login-page .box .form{
+        width: 100%;
+        position: relative;
+        right: auto;
+        top: auto;
+        height: auto;
     }
 }
