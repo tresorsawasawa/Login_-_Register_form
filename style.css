@@ -89,7 +89,11 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    transition: all 0.5 ease-in-out;
 }
+/* .login-page .box .form.slide-active{
+    right: 50%;
+} */
 .login-page .box .form h3{
     font-size: 20px;
     color: #000000;
